@@ -1,10 +1,8 @@
-import string.UpperToLower;
-
-import java.util.Scanner;
+import string.SentenceInWord;
 
 public class Main {
     public static void main(String[] args) {
-        UpperToLower upperToLower = new UpperToLower();
-        upperToLower.main();
+        SentenceInWord solution = new SentenceInWord();
+        solution.main();
     }
 }
