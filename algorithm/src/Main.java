@@ -1,8 +1,8 @@
-import string.ReverseWord;
+import string.ReverseSpecificWord;
 
 public class Main {
     public static void main(String[] args) {
-        ReverseWord solution = new ReverseWord();
+        ReverseSpecificWord solution = new ReverseSpecificWord();
         solution.main();
     }
 }
