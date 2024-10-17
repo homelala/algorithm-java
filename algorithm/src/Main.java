@@ -1,8 +1,8 @@
-import string.SentenceInWord;
+import string.ReverseWord;
 
 public class Main {
     public static void main(String[] args) {
-        SentenceInWord solution = new SentenceInWord();
+        ReverseWord solution = new ReverseWord();
         solution.main();
     }
 }
