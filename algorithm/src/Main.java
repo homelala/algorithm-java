@@ -1,11 +1,8 @@
-import string.ExtractNumber;
-import string.Palindrome;
-import string.RemoveDuplicateWord;
-import string.ValidatePalindrome;
+import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        ExtractNumber solution = new ExtractNumber();
+        MinWordDistance solution = new MinWordDistance();
         solution.main();
     }
 }
