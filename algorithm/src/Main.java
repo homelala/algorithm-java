@@ -1,8 +1,8 @@
-import string.ReverseSpecificWord;
+import string.RemoveDuplicateWord;
 
 public class Main {
     public static void main(String[] args) {
-        ReverseSpecificWord solution = new ReverseSpecificWord();
+        RemoveDuplicateWord solution = new RemoveDuplicateWord();
         solution.main();
     }
 }
