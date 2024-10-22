@@ -1,8 +1,9 @@
+import array.*;
 import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        Password solution = new Password();
+        PrintMaxNum solution = new PrintMaxNum();
         solution.main();
     }
 }
