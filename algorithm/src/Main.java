@@ -3,7 +3,7 @@ import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        RockPaperScissors solution = new RockPaperScissors();
+        Fibonacci solution = new Fibonacci();
         solution.main();
     }
 }
