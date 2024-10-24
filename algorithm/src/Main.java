@@ -3,7 +3,7 @@ import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        Fibonacci solution = new Fibonacci();
+        Decimal solution = new Decimal();
         solution.main();
     }
 }
