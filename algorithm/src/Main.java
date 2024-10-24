@@ -3,7 +3,7 @@ import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        VisibleStudent solution = new VisibleStudent();
+        RockPaperScissors solution = new RockPaperScissors();
         solution.main();
     }
 }
