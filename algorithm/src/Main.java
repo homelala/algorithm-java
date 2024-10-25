@@ -3,7 +3,7 @@ import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        Decimal solution = new Decimal();
+        ReverseDecimal solution = new ReverseDecimal();
         solution.main();
     }
 }
