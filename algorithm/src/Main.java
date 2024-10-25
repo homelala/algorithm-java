@@ -3,7 +3,7 @@ import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        ReverseDecimal solution = new ReverseDecimal();
+        CalculateScore solution = new CalculateScore();
         solution.main();
     }
 }
