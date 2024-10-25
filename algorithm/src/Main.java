@@ -3,7 +3,7 @@ import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        CalculateRate solution = new CalculateRate();
+        GridSum solution = new GridSum();
         solution.main();
     }
 }
