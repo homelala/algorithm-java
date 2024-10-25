@@ -3,7 +3,7 @@ import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        GridSum solution = new GridSum();
+        Peaks solution = new Peaks();
         solution.main();
     }
 }
