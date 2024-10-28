@@ -1,9 +1,9 @@
-import array.*;
+import efficiency.*;
 import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        Mentoring solution = new Mentoring();
+        MergeArray solution = new MergeArray();
         solution.main();
     }
 }
