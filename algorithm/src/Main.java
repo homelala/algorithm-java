@@ -3,7 +3,7 @@ import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        Peaks solution = new Peaks();
+        Mentoring solution = new Mentoring();
         solution.main();
     }
 }
