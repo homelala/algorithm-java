@@ -3,7 +3,7 @@ import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        MaxSales solution = new MaxSales();
+        ContinuousSequence solution = new ContinuousSequence();
         solution.main();
     }
 }
