@@ -3,7 +3,7 @@ import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        CommonElement solution = new CommonElement();
+        MaxSales solution = new MaxSales();
         solution.main();
     }
 }
