@@ -3,7 +3,7 @@ import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        ContinuousSequence solution = new ContinuousSequence();
+        ContinuousElementSum solution = new ContinuousElementSum();
         solution.main();
     }
 }
