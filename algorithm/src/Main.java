@@ -1,9 +1,10 @@
+import HashMap.*;
 import efficiency.*;
 import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        MaxLengthSequence solution = new MaxLengthSequence();
+        ClassCaptain solution = new ClassCaptain();
         solution.main();
     }
 }
