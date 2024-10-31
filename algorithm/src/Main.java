@@ -4,7 +4,7 @@ import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        Anagram solution = new Anagram();
+        SalesKind solution = new SalesKind();
         solution.main();
     }
 }
