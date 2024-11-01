@@ -1,10 +1,10 @@
 import HashMap.*;
-import efficiency.*;
+import StackQueue.*;
 import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        AllAnagram solution = new AllAnagram();
+        Parentheses solution = new Parentheses();
         solution.main();
     }
 }
