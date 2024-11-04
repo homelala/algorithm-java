@@ -1,10 +1,8 @@
-import HashMap.*;
 import StackQueue.*;
-import string.*;
 
 public class Main {
     public static void main(String[] args) {
-        Parentheses solution = new Parentheses();
+        RemoveParentheses solution = new RemoveParentheses();
         solution.main();
     }
 }
