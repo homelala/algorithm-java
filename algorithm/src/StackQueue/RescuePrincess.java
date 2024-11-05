@@ -5,6 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
+// 다시 풀어보기
 public class RescuePrincess {
     public static int solution1(int n, int k) {
         int cnt = 0, princeNum = 0;
