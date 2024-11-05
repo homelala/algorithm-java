@@ -2,7 +2,7 @@ import StackQueue.*;
 
 public class Main {
     public static void main(String[] args) {
-        Postfix solution = new Postfix();
+        MetalStick solution = new MetalStick();
         solution.main();
     }
 }
