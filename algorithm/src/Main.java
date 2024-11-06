@@ -1,8 +1,8 @@
-import StackQueue.*;
+import sort.*;
 
 public class Main {
     public static void main(String[] args) {
-        EmergencyRoom solution = new EmergencyRoom();
+        BubbleSort solution = new BubbleSort();
         solution.main();
     }
 }
