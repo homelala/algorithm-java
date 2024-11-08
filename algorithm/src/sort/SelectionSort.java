@@ -1,6 +1,7 @@
 package sort;
 import java.util.Scanner;
 
+// 가장 작은 값을 찾아 첫번째 위치에 두는 로직 반복
 public class SelectionSort {
     public static int[] solution1(int n, int[] inputArray) {
         for (int i = 0; i < n-1; i++) {

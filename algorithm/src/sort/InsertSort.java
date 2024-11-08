@@ -2,6 +2,7 @@ package sort;
 
 import java.util.Scanner;
 
+// key 값 전에 위치한 value 중 가장 작은 값을 찾아 바꾸는 것
 public class InsertSort {
     public static int[] solution1(int n, int[] inputArray) {
         for (int i = 1; i < n; i++) {
