@@ -2,7 +2,7 @@ import sort.*;
 
 public class Main {
     public static void main(String[] args) {
-        LRU solution = new LRU();
+        CommonCheck solution = new CommonCheck();
         solution.main();
     }
 }
