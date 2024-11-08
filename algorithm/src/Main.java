@@ -2,7 +2,7 @@ import sort.*;
 
 public class Main {
     public static void main(String[] args) {
-        InsertSort solution = new InsertSort();
+        BubbleSort2 solution = new BubbleSort2();
         solution.main();
     }
 }
