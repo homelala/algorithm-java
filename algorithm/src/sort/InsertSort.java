@@ -20,6 +20,23 @@ public class InsertSort {
         return inputArray;
     }
 
+    public static int[] solution2(int n, int[] inputArray) {
+        for (int i = 1; i < n; i++) {
+            int temp = inputArray[i], k;
+
+            for (k = i - 1; k >= 0; k--) {
+                if (inputArray[k] > temp) {
+                    inputArray[k + 1] = inputArray[k];
+                }else{
+                    break;
+                }
+            }
+            inputArray[k] = temp;
+        }
+
+        return inputArray;
+    }
+
 
 
     public void main() {
