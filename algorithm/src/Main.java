@@ -1,8 +1,8 @@
-import sort.*;
+import Recursion.*;
 
 public class Main {
     public static void main(String[] args) {
-        Stall solution = new Stall();
+        Recursion solution = new Recursion();
         solution.main();
     }
 }
