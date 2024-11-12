@@ -2,7 +2,7 @@ import sort.*;
 
 public class Main {
     public static void main(String[] args) {
-        MusicVideo solution = new MusicVideo();
+        Stall solution = new Stall();
         solution.main();
     }
 }
