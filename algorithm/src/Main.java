@@ -2,7 +2,7 @@ import sort.*;
 
 public class Main {
     public static void main(String[] args) {
-        BinarySort solution = new BinarySort();
+        MusicVideo solution = new MusicVideo();
         solution.main();
     }
 }
