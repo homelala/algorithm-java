@@ -8,8 +8,8 @@ public class Recursion {
         if (n == 0) {
             return;
         }
-        System.out.print(n+ " ");
         solution1(n - 1);
+        System.out.print(n+ " ");
     }
 
 
