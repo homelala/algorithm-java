@@ -2,7 +2,7 @@ import Recursion.*;
 
 public class Main {
     public static void main(String[] args) {
-        Fibonacci solution = new Fibonacci();
+        BinaryTree solution = new BinaryTree();
         solution.main();
     }
 }
