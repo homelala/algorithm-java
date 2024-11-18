@@ -5,7 +5,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        Calf solution = new Calf();
+        TreeDFS solution = new TreeDFS();
         solution.main();
     }
 }
