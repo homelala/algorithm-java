@@ -6,7 +6,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        EqualSumSubset solution = new EqualSumSubset();
+        Dog solution = new Dog();
         solution.main();
     }
 }
