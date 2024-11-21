@@ -6,7 +6,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        Dog solution = new Dog();
+        MaxScore solution = new MaxScore();
         solution.main();
     }
 }
