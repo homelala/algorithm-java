@@ -6,7 +6,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        ExchangeCoin solution = new ExchangeCoin();
+        Permutation solution = new Permutation();
         solution.main();
     }
 }
