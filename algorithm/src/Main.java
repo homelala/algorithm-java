@@ -6,7 +6,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        Permutation solution = new Permutation();
+        Combination solution = new Combination();
         solution.main();
     }
 }
