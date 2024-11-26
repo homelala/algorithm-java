@@ -6,7 +6,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        GuessSequence solution = new GuessSequence();
+        GetCombination solution = new GetCombination();
         solution.main();
     }
 }
