@@ -6,7 +6,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        MazeMinDistance solution = new MazeMinDistance();
+        Tomato solution = new Tomato();
         solution.main();
     }
 }
