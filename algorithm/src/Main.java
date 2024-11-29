@@ -6,7 +6,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        Island solution = new Island();
+        Pizza solution = new Pizza();
         solution.main();
     }
 }
