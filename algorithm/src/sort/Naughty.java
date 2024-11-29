@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// 다시 풀어보기
 public class Naughty {
 
     public static ArrayList<Integer> solution1(int n, int[] inputArray) {
