@@ -7,7 +7,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        Cabinet solution = new Cabinet();
+        Marry solution = new Marry();
         solution.main();
     }
 }
