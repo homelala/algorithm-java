@@ -8,7 +8,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        MetalStick2 solution = new MetalStick2();
+        Fibonacci2 solution = new Fibonacci2();
         solution.main();
     }
 }

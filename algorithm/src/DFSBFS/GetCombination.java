@@ -2,6 +2,7 @@ package DFSBFS;
 
 import java.util.Scanner;
 
+//중요
 public class GetCombination {
     static int n, m;
     static int[] result;

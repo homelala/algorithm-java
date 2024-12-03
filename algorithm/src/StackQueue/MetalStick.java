@@ -3,7 +3,6 @@ package StackQueue;
 import java.util.Scanner;
 import java.util.Stack;
 
-//다시 풀어보기
 public class MetalStick {
     public static int solution1(String inputString) {
         int result = 0;
