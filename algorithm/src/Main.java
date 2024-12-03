@@ -7,7 +7,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        Marry solution = new Marry();
+        MaxInputSchedule solution = new MaxInputSchedule();
         solution.main();
     }
 }
