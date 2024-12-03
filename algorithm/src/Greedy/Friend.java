@@ -1,7 +1,5 @@
 package Greedy;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 // 다시 풀어보기
