@@ -1,19 +1,21 @@
 package sort;
 import java.util.Scanner;
 
-//인접 값들을 비교하면서 정렬
-public class BubbleSort2 {
+// 중요
+// 가장 작은 값을 찾아 첫번째 위치에 두는 로직 반복
+public class SelectionSort3 {
     public static int[] solution1(int n, int[] inputArray) {
-        for (int i = n - 1; i > 0; i--) {
-            for (int j = 0; j < i; j++) {
-                if (inputArray[j] > inputArray[j + 1]) {
-                    int temp = inputArray[j];
-                    inputArray[j] = inputArray[j + 1];
-                    inputArray[j + 1] = temp;
+        for (int i = 0; i < inputArray.length; i++) {
+            int minNumIndex = i;
+            for (int j = i + 1; j < inputArray.length; j++) {
+                if (inputArray[minNumIndex] > inputArray[j]) {
+                    minNumIndex = j;
                 }
             }
+            int temp = inputArray[i];
+            inputArray[i] = inputArray[minNumIndex];
+            inputArray[minNumIndex] = temp;
         }
-
         return inputArray;
     }
 

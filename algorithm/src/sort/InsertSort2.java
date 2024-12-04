@@ -1,22 +1,25 @@
 package sort;
+
 import java.util.Scanner;
 
-//인접 값들을 비교하면서 정렬
-public class BubbleSort2 {
+// key 값 전에 위치한 value 중 가장 작은 값을 찾아 바꾸는 것
+// 스위칭을 하는 것이 아니라 말그대로 밀어내는 것이 중요
+public class InsertSort2 {
     public static int[] solution1(int n, int[] inputArray) {
-        for (int i = n - 1; i > 0; i--) {
-            for (int j = 0; j < i; j++) {
-                if (inputArray[j] > inputArray[j + 1]) {
-                    int temp = inputArray[j];
-                    inputArray[j] = inputArray[j + 1];
-                    inputArray[j + 1] = temp;
+        for (int i = 1; i < n; i++) {
+            int temp = inputArray[i], j;
+            for (j = i - 1; j >= 0; j--) {
+                if (temp < inputArray[j]) {
+                    inputArray[j + 1] = inputArray[j];
+                } else {
+                    break;
                 }
             }
+            inputArray[j + 1] = temp;
         }
 
         return inputArray;
     }
-
 
 
     public void main() {

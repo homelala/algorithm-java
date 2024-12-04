@@ -31,7 +31,7 @@ public class InsertSort {
                     break;
                 }
             }
-            inputArray[k] = temp;
+            inputArray[k+1] = temp;
         }
 
         return inputArray;
