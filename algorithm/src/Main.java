@@ -8,7 +8,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        Fibonacci2 solution = new Fibonacci2();
+        WonderLandUnion solution = new WonderLandUnion();
         solution.main();
     }
 }
