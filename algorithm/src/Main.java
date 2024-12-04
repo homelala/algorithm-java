@@ -8,7 +8,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        WonderLandUnion solution = new WonderLandUnion();
+        WonderLandPriorityQueue solution = new WonderLandPriorityQueue();
         solution.main();
     }
 }
