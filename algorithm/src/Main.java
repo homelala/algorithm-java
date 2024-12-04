@@ -1,4 +1,5 @@
 import DFSBFS.*;
+import DP.*;
 import Greedy.*;
 import Recursion.*;
 import StackQueue.*;
@@ -8,7 +9,7 @@ import sort.MusicVideo2;
 
 public class Main {
     public static void main(String[] args) {
-        WonderLandPriorityQueue solution = new WonderLandPriorityQueue();
+        Stairs solution = new Stairs();
         solution.main();
     }
 }

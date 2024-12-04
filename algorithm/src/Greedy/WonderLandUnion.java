@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-// 맞혔지만 다시 풀어보기
+//  중요 맞혔지만 다시 풀어보기
 public class WonderLandUnion {
     public static class Point implements Comparable<Point>{
         int start;
