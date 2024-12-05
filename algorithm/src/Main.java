@@ -7,7 +7,7 @@ import sort.*;
 
 public class Main {
     public static void main(String[] args) {
-        MaxIncreaseSequence solution = new MaxIncreaseSequence();
+        BuildTop solution = new BuildTop();
         solution.main();
     }
 }
