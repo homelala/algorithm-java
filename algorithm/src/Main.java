@@ -7,7 +7,7 @@ import sort.*;
 
 public class Main {
     public static void main(String[] args) {
-        BuildTop solution = new BuildTop();
+        Tomato2 solution = new Tomato2();
         solution.main();
     }
 }
