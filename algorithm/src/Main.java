@@ -7,7 +7,7 @@ import sort.*;
 
 public class Main {
     public static void main(String[] args) {
-        InsertSort2 solution = new InsertSort2();
+        StoneBridge solution = new StoneBridge();
         solution.main();
     }
 }
