@@ -2,23 +2,23 @@ package Greedy;
 
 import java.util.Scanner;
 
-// 중요
 // 다시 풀어보기
-public class Friend {
+public class Friend2 {
     static int[] parent;
 
-    public static int find(int a) {
+    static int find(int a) {
         if (parent[a] == a) {
             return a;
         }else{
             return parent[a] = find(parent[a]);
         }
     }
-
-    public static void union(int a, int b) {
+    static void union(int a, int b) {
         int fa = find(a);
         int fb = find(b);
-        if(fa !=fb) parent[fa] = fb;
+        if (fa != fb) {
+            parent[fa] = fb;
+        }
     }
 
     public void main() {
@@ -30,7 +30,6 @@ public class Friend {
         for (int i = 1; i <= n; i++) {
             parent[i] = i;
         }
-
         for (int i = 0; i < m; i++) {
             int a = in.nextInt();
             int b = in.nextInt();
@@ -41,7 +40,7 @@ public class Friend {
         int b = in.nextInt();
         if (find(a) == find(b)) {
             System.out.println("YES");
-        }else{
+        } else {
             System.out.println("NO");
         }
     }
