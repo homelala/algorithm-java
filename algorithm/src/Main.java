@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Section solution = new Section();
+        Coin solution = new Coin();
         solution.main();
     }
 }
