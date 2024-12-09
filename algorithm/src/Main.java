@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Suger solution = new Suger();
+        MusicVideo3 solution = new MusicVideo3();
         solution.main();
     }
 }
