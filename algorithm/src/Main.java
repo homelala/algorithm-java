@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        SortNumber1 solution = new SortNumber1();
+        QuickSort solution = new QuickSort();
         solution.main();
     }
 }
