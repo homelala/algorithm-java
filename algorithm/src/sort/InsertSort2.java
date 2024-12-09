@@ -2,6 +2,7 @@ package sort;
 
 import java.util.Scanner;
 
+// 다시 풀어보기2
 // key 값 전에 위치한 value 중 가장 작은 값을 찾아 바꾸는 것
 // 스위칭을 하는 것이 아니라 말그대로 밀어내는 것이 중요
 public class InsertSort2 {
