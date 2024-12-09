@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        MusicVideo3 solution = new MusicVideo3();
+        ApartmentNumber solution = new ApartmentNumber();
         solution.main();
     }
 }
