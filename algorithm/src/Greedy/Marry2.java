@@ -1,8 +1,10 @@
 package Greedy;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.*;
 
-public class Marry {
+public class Marry2 {
     static class Time implements Comparable<Time>{
         int time;
         char status;
@@ -13,29 +15,26 @@ public class Marry {
         }
 
         @Override
-        public int compareTo(Time time) {
-            if (this.time == time.time) {
-                return this.status - time.status;
-            }else{
-                return this.time - time.time;
+        public int compareTo(Time o) {
+            if (o.time == this.time) {
+                return this.status - o.status;
             }
+            return this.time - o.time;
         }
     }
 
     static ArrayList<Time> map;
     public static int solution1(int n) {
-        Queue<Time> friends = new LinkedList<>();
-        int answer = 0;
-        int cnt = 0;
         Collections.sort(map);
-
-        for (Time t: map) {
-            if (t.status == 'e') {
-                cnt--;
-            }else if (t.status == 's') {
-                cnt++;
-                answer = Math.max(answer, cnt);
+        int answer = 0;
+        Queue<Time> queue = new LinkedList<>();
+        for (Time t : map) {
+            if (t.status == 's') {
+                queue.add(t);
+            }else{
+                queue.poll();
             }
+            answer = Math.max(answer, queue.size());
         }
         return answer;
     }
