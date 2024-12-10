@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        MissingParentheses solution = new MissingParentheses();
+        MakePassword solution = new MakePassword();
         solution.main();
     }
 }
