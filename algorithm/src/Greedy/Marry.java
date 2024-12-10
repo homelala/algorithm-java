@@ -24,7 +24,6 @@ public class Marry {
 
     static ArrayList<Time> map;
     public static int solution1(int n) {
-        Queue<Time> friends = new LinkedList<>();
         int answer = 0;
         int cnt = 0;
         Collections.sort(map);
