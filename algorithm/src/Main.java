@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Fibonacci solution = new Fibonacci();
+        Alphabet solution = new Alphabet();
         solution.main();
     }
 }
