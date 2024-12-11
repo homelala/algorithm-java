@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        MakePassword solution = new MakePassword();
+        Coin2 solution = new Coin2();
         solution.main();
     }
 }
