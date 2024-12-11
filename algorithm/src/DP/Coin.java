@@ -2,10 +2,8 @@ package DP;
 
 import java.io.*;
 import java.util.Arrays;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
-//다시 풀어보기
 public class Coin {
     static int[] dp;
     static int[] coins;

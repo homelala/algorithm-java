@@ -4,7 +4,6 @@ import java.io.*;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-//다시 풀어보기
 public class Coin2 {
     static int[] dp;
     static int[] coins;
