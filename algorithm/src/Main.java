@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        FindNumber solution = new FindNumber();
+        BubbleSort3 solution = new BubbleSort3();
         solution.main();
     }
 }

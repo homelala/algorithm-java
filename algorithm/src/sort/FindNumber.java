@@ -29,9 +29,11 @@ public class FindNumber {
     public static void quickSort(int start, int end, long[] inputArray) {
         int part = partition(start, end, inputArray);
 
+        // 파티션 뒤에 남은것이 없을 때까지
         if (start < part - 1) {
             quickSort(start, part - 1, inputArray);
         }
+        // 파티션 앞에 남은 것이 없을 때까지
         if (part < end) {
             quickSort(part, end, inputArray);
         }
