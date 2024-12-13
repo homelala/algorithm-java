@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Sudoku solution = new Sudoku();
+        WonderLandUnion2 solution = new WonderLandUnion2();
         solution.main();
     }
 }
