@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        GasStation solution = new GasStation();
+        StartAndLink solution = new StartAndLink();
         solution.main();
     }
 }
