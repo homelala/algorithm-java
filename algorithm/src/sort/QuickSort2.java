@@ -1,35 +1,32 @@
 package sort;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 // 퀵정렬
 // 중요
 // 다시 풀어보기
-public class QuickSort {
-    public static void quickSort(int[] inputArray, int start, int end) {
-        int part = partition(start, end, inputArray);
+public class QuickSort2 {
+    public static void quickSort(int start, int end, int[] inputArray) {
+        int partition = part(start, end, inputArray);
 
-        if (start < part - 1) {
-            quickSort(inputArray, start, part - 1);
+        if (partition - 1 > start) {
+            quickSort(start, partition - 1, inputArray);
         }
-        if (part < end) {
-            quickSort(inputArray, part, end);
+        if (partition < end) {
+            quickSort(partition, end, inputArray);
         }
     }
 
-    public static int partition(int start, int end, int[] inputArray) {
+    public static int part(int start, int end, int[] inputArray) {
         int mid = (start + end) / 2;
         int pivot = inputArray[mid];
 
         while (start <= end) {
-            while(inputArray[start]<pivot) start++;
-            while(inputArray[end]>pivot) end--;
+            while(pivot > inputArray[start]) start++;
+            while(pivot < inputArray[end]) end--;
 
             if (start <= end) {
-                System.out.println(pivot+" " + Arrays.toString(inputArray));
                 swap(inputArray, start, end);
                 start++;
                 end--;
@@ -53,7 +50,7 @@ public class QuickSort {
             st = new StringTokenizer(br.readLine());
             inputArray[i] = Integer.parseInt(st.nextToken());
         }
-        quickSort(inputArray, 0, n - 1);
+        quickSort(0, n - 1, inputArray);
         for (int i : inputArray) {
             bw.write(i + "");
             bw.newLine();
