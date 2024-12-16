@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        QuickSort2 solution = new QuickSort2();
+        MergeSort solution = new MergeSort();
         solution.main();
     }
 }
