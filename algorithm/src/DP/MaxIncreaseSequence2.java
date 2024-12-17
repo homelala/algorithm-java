@@ -9,12 +9,11 @@ public class MaxIncreaseSequence2 {
         int answer = 0;
         dp[0] = 1;
         for (int i = 1; i < n; i++) {
-            int len = 0;
+            dp[i] = 1;
             for (int j = i - 1; j >= 0; j--) {
-                if (arr[i] > arr[j] && dp[j] > len) {
-                    len = dp[j];
+                if (arr[i] > arr[j] && dp[j] + 1 > dp[i]) {
+                    dp[i] = dp[j] + 1;
                 }
-                dp[i] = len + 1;
             }
             answer = Math.max(answer, dp[i]);
         }
