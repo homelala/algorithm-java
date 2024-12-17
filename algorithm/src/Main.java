@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        MaxScore2 solution = new MaxScore2();
+        MaxIncreaseSequence2 solution = new MaxIncreaseSequence2();
         solution.main();
     }
 }
