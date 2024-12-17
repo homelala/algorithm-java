@@ -1,10 +1,9 @@
 package DP;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class MaxScore {
+public class MaxScore2 {
     static int[] dp;
 
     public void main() throws IOException {
@@ -15,16 +14,16 @@ public class MaxScore {
         int m = Integer.parseInt(st.nextToken());
 
         dp = new int[m + 1];
-
         for (int i = 0; i < n; i++) {
-            st = new StringTokenizer(br.readLine(), " ");
-            int a = Integer.parseInt(st.nextToken());
-            int b = Integer.parseInt(st.nextToken());
-            for (int j = m; j >= b; j--) {
-                dp[j] = Math.max(dp[j], dp[j - b] + a);
-            }
+            st = new StringTokenizer(br.readLine()," ");
+            int score = Integer.parseInt(st.nextToken());
+            int time = Integer.parseInt(st.nextToken());
 
+            for (int j = m; j >= time; j--) {
+                dp[j] = Math.max(dp[j], dp[j - time] + score);
+            }
         }
+
         bw.write(dp[m]+"");
         bw.flush();
         bw.close();
