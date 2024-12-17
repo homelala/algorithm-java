@@ -2,13 +2,13 @@ package DP;
 
 import java.util.Scanner;
 
+// 백준 11053 증가하는 수 길이
 public class MaxIncreaseSequence2 {
     static int[] dp;
     static int[] arr;
     public static int solution1(int n) {
         int answer = 0;
-        dp[0] = 1;
-        for (int i = 1; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             dp[i] = 1;
             for (int j = i - 1; j >= 0; j--) {
                 if (arr[i] > arr[j] && dp[j] + 1 > dp[i]) {
