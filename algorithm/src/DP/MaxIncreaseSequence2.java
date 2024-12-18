@@ -3,6 +3,7 @@ package DP;
 import java.util.Scanner;
 
 // 백준 11053 증가하는 수 길이
+// 다시 풀어보기
 public class MaxIncreaseSequence2 {
     static int[] dp;
     static int[] arr;

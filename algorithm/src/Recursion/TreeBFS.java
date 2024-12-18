@@ -35,8 +35,12 @@ public class TreeBFS {
         tree.root = new Node(1);
         tree.root.lt = new Node(2);
         tree.root.rt = new Node(3);
+        tree.root.rt.lt = new Node(6);
+        tree.root.rt.lt.rt = new Node(9);
         tree.root.lt.lt = new Node(4);
         tree.root.lt.rt = new Node(5);
+        tree.root.lt.rt.lt = new Node(8);
+        tree.root.lt.lt.lt = new Node(7);
         System.out.print(tree.bfs(tree.root));
     }
 }
