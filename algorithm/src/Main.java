@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        SortCard solution = new SortCard();
+        Ladder solution = new Ladder();
         solution.main();
     }
 }
