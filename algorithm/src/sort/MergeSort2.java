@@ -6,10 +6,10 @@ import java.util.StringTokenizer;
 // 병합정렬
 // 중요
 // 다시 풀어보기
-public class MergeSort {
+public class MergeSort2 {
     public static void mergeSort(int start, int end, int[] inputArray, int[] temp) {
         if (start < end) {
-            int mid =  (start + end) / 2;
+            int mid = (start + end) / 2;
             mergeSort(start, mid, inputArray, temp);
             mergeSort(mid + 1, end, inputArray, temp);
             merge(inputArray, temp, start, mid, end);
