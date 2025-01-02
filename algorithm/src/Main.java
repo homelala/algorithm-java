@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        NumberCard solution = new NumberCard();
+        SequenceSum solution = new SequenceSum();
         solution.main();
     }
 }
