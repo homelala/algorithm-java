@@ -3,6 +3,7 @@ package DP;
 import java.util.Scanner;
 
 // 1192 연속합
+// 다시 풀어보기
 public class SequenceSum {
     static int[] dp;
     static int[] arr;
