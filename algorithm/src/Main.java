@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        NewEmployee solution = new NewEmployee();
+        QuickSort4 solution = new QuickSort4();
         solution.main();
     }
 }
