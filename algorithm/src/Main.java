@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Fibonacci2 solution = new Fibonacci2();
+        SteelJewel solution = new SteelJewel();
         solution.main();
     }
 }
