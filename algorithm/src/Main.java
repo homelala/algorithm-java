@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        PointCompress solution = new PointCompress();
+        Wine solution = new Wine();
         solution.main();
     }
 }
