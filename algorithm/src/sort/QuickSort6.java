@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 // 퀵정렬
 // 중요
 // 다시 풀어보기
-public class QuickSort5 {
+public class QuickSort6 {
     public void quicksort(int start, int end, int[] inputArr) {
         int partition = part(start, end, inputArr);
 
