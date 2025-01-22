@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        HideAndFind solution = new HideAndFind();
+        Tomato3 solution = new Tomato3();
         solution.main();
     }
 }
