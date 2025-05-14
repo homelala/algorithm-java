@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Tomato3 solution = new Tomato3();
+        BubbleSort6 solution = new BubbleSort6();
         solution.main();
     }
 }

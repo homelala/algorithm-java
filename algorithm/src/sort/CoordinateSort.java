@@ -1,6 +1,5 @@
 package sort;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -27,7 +26,7 @@ public class CoordinateSort {
         }
 
         @Override
-        public int compareTo(@NotNull CoordinateSort.Point o) {
+        public int compareTo(CoordinateSort.Point o) {
             if(this.x == o.x) return this.y - o.y;
             else return this.x - o.x;
         }

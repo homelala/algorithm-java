@@ -1,6 +1,5 @@
 package Greedy;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -20,7 +19,7 @@ public class WonderLandUnion {
         }
 
         @Override
-        public int compareTo(@NotNull WonderLandUnion.Point o) {
+        public int compareTo(WonderLandUnion.Point o) {
             return this.cost - o.cost;
         }
     }
