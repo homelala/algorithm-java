@@ -1,4 +1,4 @@
-package backjune.bfs;
+package backjune.dfs;
 
 import java.io.*;
 import java.util.*;
