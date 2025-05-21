@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        backjune_1806 solution = new backjune_1806();
+        backjune_2512 solution = new backjune_2512();
         solution.main();
     }
 }
