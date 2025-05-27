@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        backjune_1926 solution = new backjune_1926();
+        backjune_2343 solution = new backjune_2343();
         solution.main();
     }
 }
