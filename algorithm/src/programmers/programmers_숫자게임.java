@@ -15,6 +15,7 @@ public class programmers_숫자게임 {
                 idx++;
             }
         }
+//        getCase(A, B, new int[B.length], 0, new boolean[B.length]);
         System.out.println(answer);
         return answer;
     }
@@ -23,18 +24,19 @@ public class programmers_숫자게임 {
 //        if (size == b.length) {
 //            int win = 0;
 //            for (int i = 0; i < a.length; i++) {
-//                if (a[i] < b[i]) {
+//                if (a[i] < b[comb[i]]) {
 //                    win++;
 //                }
 //            }
 //            answer = Math.max(answer, win);
 //        }else{
-//            for (int i = size; i < b.length; i++) {
+//            for (int i = 0; i < b.length; i++) {
 //                if(visited[i]) continue;
 //                comb[size] = i;
 //                visited[i] = true;
 //                getCase(a, b, comb, size + 1, visited);
 //                visited[i] = false;
+//                comb[size] = 0;
 //            }
 //        }
 //    }
