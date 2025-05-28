@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        programmers_택배배달수거하기 solution = new programmers_택배배달수거하기();
-        solution.solution(2, 7, new int[]{1, 0, 2, 0, 1, 0, 2}, new int[]{0, 2, 0, 1, 0, 2, 0});
+        programmers_숫자게임 solution = new programmers_숫자게임();
+        solution.solution(new int[]{5, 1, 3, 7}, new int[]{2, 2, 6, 8});
     }
 }
