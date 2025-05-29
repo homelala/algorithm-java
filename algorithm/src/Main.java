@@ -12,9 +12,8 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        programmers_배달 solution = new programmers_배달();
-        solution.solution(10,
-                new int[][]{{1, 9, 77}, {2, 5, 49}, {3, 9, 17}, {4, 7, 48}, {5, 8, 31}, {6, 10, 81}, {7, 9, 12}, {8, 9, 64}, {9, 10, 70}}, 100);
+        programmers_정수삼각형 solution = new programmers_정수삼각형();
+        solution.solution(new int[][]{{7}, {3, 8}, {8, 1, 0}, {2, 7, 4, 4}, {4, 5, 2, 6, 5}});
 
     }
 }
