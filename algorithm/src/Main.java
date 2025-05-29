@@ -12,7 +12,9 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        programmers_숫자게임 solution = new programmers_숫자게임();
-        solution.solution(new int[]{5, 1, 3, 7}, new int[]{2, 2, 6, 8});
+        programmers_배달 solution = new programmers_배달();
+        solution.solution(10,
+                new int[][]{{1, 9, 77}, {2, 5, 49}, {3, 9, 17}, {4, 7, 48}, {5, 8, 31}, {6, 10, 81}, {7, 9, 12}, {8, 9, 64}, {9, 10, 70}}, 100);
+
     }
 }
