@@ -12,8 +12,8 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        programmers_정수삼각형 solution = new programmers_정수삼각형();
-        solution.solution(new int[][]{{7}, {3, 8}, {8, 1, 0}, {2, 7, 4, 4}, {4, 5, 2, 6, 5}});
+        programmers_연속펄스부분수열의합 solution = new programmers_연속펄스부분수열의합();
+        solution.solution(new int[]{2, 3, -6, 1, 3, -1, 2, 4});
 
     }
 }
