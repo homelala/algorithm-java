@@ -1,27 +1,32 @@
 package sort;
 import java.util.Scanner;
-
-// 중요
-// 가장 작은 값을 찾아 첫번째 위치에 두는 로직 반복
-public class SelectionSort4 {
+/*
+가장 작은 값을 찾아 첫번째 위치에 두는 로직 반복
+9
+9 2 1 4 5 8 6 7 3
+ */
+public class SelectionSort1 {
     public static int[] solution1(int n, int[] inputArray) {
         for (int i = n - 1; i >= 0; i--) {
             int maxIdx = i;
-            for (int j = 0; j < i; j++) {
-                if (inputArray[maxIdx] < inputArray[j]) {
+            for (int j = 0; j < i - 1; j++) {
+                if (inputArray[j] > inputArray[maxIdx]) {
                     maxIdx = j;
                 }
             }
-            int temp = inputArray[i];
-            inputArray[i] = inputArray[maxIdx];
-            inputArray[maxIdx] = temp;
+            swap(i, maxIdx, inputArray);
         }
+
         return inputArray;
     }
 
+    private static void swap(int a, int b, int[] inputArray) {
+        int temp = inputArray[a];
+        inputArray[a] = inputArray[b];
+        inputArray[b] = temp;
+    }
 
-
-    public void main() {
+    public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         int n = in.nextInt();
         int[] inputArray = new int[n];
