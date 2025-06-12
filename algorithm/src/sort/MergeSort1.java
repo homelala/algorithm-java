@@ -6,26 +6,26 @@ import java.util.StringTokenizer;
 // 병합정렬
 // 중요
 // 다시 풀어보기
-public class MergeSort4 {
-    static public void mergeSort(int start, int end, int[] inputArray, int[] temp) {
+public class MergeSort1 {
+    public static void mergeSort(int start, int end, int[] inputArray, int[] temp) {
         if (start < end) {
             int mid = (start + end) / 2;
             mergeSort(start, mid, inputArray, temp);
             mergeSort(mid + 1, end, inputArray, temp);
-            merge(inputArray, start, mid, end, temp);
+            merge(inputArray, temp, start, mid, end);
         }
     }
 
-    static public void merge(int[] inputArray, int start, int mid, int end, int[] temp) {
+    public static void merge(int[] inputArray, int[] temp, int start, int mid, int end) {
         for (int i = start; i <= end; i++) {
             temp[i] = inputArray[i];
         }
 
-        int part1 = start;
-        int part2 = mid + 1;
-        int index = start;
+        int part1 = start; // 왼쪽 index
+        int part2 = mid + 1;//오른쪽 index
+        int index = start; //변경할 index
 
-        while (part1 <= start && part2 <= end) {
+        while (part1 <= mid && part2 <= end) {
             if (temp[part1] < temp[part2]) {
                 inputArray[index] = temp[part1];
                 part1++;
@@ -33,16 +33,17 @@ public class MergeSort4 {
                 inputArray[index] = temp[part2];
                 part2++;
             }
+
             index++;
         }
 
-        for (int i = 0; i <= mid-part1; i++) {
+        //왼쪽 파티션이 남아 있을 경우
+        for (int i = 0; i <= mid - part1; i++) {
             inputArray[index + i] = temp[part1 + i];
         }
     }
 
-
-    public void main() throws IOException {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());

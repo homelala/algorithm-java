@@ -4,22 +4,6 @@ import java.util.Scanner;
 
 // key 값 전에 위치한 value 중 가장 작은 값을 찾아 바꾸는 것
 public class InsertSort {
-    public static int[] solution1(int n, int[] inputArray) {
-        for (int i = 1; i < n; i++) {
-            int minIndex = i;
-
-            for (int k = 0; k < minIndex; k++) {
-                if (inputArray[k] > inputArray[i]) {
-                    int temp = inputArray[k];
-                    inputArray[k] = inputArray[i];
-                    inputArray[i] = temp;
-               }
-            }
-        }
-
-        return inputArray;
-    }
-
     public static int[] solution2(int n, int[] inputArray) {
         for (int i = 1; i < n; i++) {
             int temp = inputArray[i], k;
@@ -47,7 +31,7 @@ public class InsertSort {
             inputArray[i] = in.nextInt();
         }
 
-        for (int i : solution1(n, inputArray)) {
+        for (int i : solution2(n, inputArray)) {
             System.out.print(i + " ");
         }
     }
