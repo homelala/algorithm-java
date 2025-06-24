@@ -38,11 +38,11 @@ public class backjune_피리부는사나이 {
 
     private static void dfs(int x, int y) {
         int dx = x, dy = y;
-        if (board[x][y] == 'L') {
+        if (board[dx][dy] == 'L') {
             dy = y - 1;
-        } else if (board[x][y] == 'D') {
+        } else if (board[dx][dy] == 'D') {
             dx = x + 1;
-        } else if (board[x][y] == 'U') {
+        } else if (board[dx][dy] == 'U') {
             dx = x - 1;
         } else {
             dy = y + 1;
@@ -52,10 +52,10 @@ public class backjune_피리부는사나이 {
             visited[dx][dy] = true;
             dfs(dx, dy);
         } else {
-            if (!finished[dx][dy]) {
+            if (!finished[dx][dy]) { // 갔다온적이 있는데 끝난적이 없으면 루프
                 cnt++;
             }
         }
-        finished[dx][dy] = true;
+        finished[x][y] = true; //해당 경로는 사이클 경로이므로 다 체크 표시
     }
 }
